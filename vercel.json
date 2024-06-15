@@ -8,11 +8,8 @@
     ],
     "routes": [
       {
-        "src": "/api/seni/(.*)",
-        "dest": "/api/seni/:1"
+        "src": "/(.*)",
+        "dest": "server.js"
       }
-    ],
-    "env": {
-    "MONGODB_URI": "mongodb+srv://billyfitra35:XTyxkFkSGQoGqfjW@database.dvtnid7.mongodb.net/database?retryWrites=true&w=majority&appName=database"
-  }
-  }
+    ]
+}
